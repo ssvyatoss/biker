@@ -1,0 +1,72 @@
+@media only screen and (max-width: 675px) {
+  .title__slideshow__description__wrapper {
+    flex-direction: column;
+  }
+  /* .bars__menu {
+    display: block;
+  } */
+
+  .navigation__list {
+    display: none;
+  }
+
+  .moto__nav__gallery__box {
+    justify-content: space-between;
+  }
+  .moto__gallery__box {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  label {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer_container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .main__buttons__container {
+    flex-direction: column;
+  }
+  .main__button {
+    margin-top: 20px;
+  }
+  .contacts__notitia {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main__buttons__container {
+    flex-direction: column;
+  }
+  .main__button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer_container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .footer__social__networks {
+    margin: 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__social__networks__list__item:first-child {
+    margin: auto;
+  }
+
+  .moto__nav__gallery__box {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

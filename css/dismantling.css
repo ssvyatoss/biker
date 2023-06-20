@@ -1,0 +1,86 @@
+.dismantling__bg__img {
+    background-image: url(/images/dark-grunge-texture-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__hero__img {
+    display: flex;
+    justify-content: center;
+}
+
+.main__hero__tiltle__nav {
+    text-align: center;
+}
+
+.main__hero__title {
+    color: white;
+}
+
+.gallery__title__box ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.gallery__title__box button {
+    color: white;
+}
+
+.gallery__title__box button {
+    background-color: transparent;
+    border: none;
+}
+
+.gallery__title__box button:hover {
+    color: orange;
+}
+
+.moto__nav__gallery__box {
+    display: flex;
+    
+}
+
+.sidebar__menu {
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar__menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.sidebar__menu button {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.sidebar__menu button:hover {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+.moto__gallery__box {
+    max-width: calc(100% - 150px);
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.moto__gallery__box figcaption {
+    color: white;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
